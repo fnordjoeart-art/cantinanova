@@ -1,0 +1,10 @@
+workflows:
+  react-app:
+    name: React Build
+    environment:
+      node: latest
+    scripts:
+      - npm install
+      - npm run build
+    artifacts:
+      - dist/**
