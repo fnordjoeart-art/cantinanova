@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Node / Vite / React
+node_modules/
+dist/
+*.log
+
+# Env
+.env
+.env.*
