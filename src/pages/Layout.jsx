@@ -4,12 +4,12 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { Wine, Compass, Calendar, Gift, User, Heart, Grape, Map, LayoutDashboard, Building } from "lucide-react"; // Added Building icon
-import { UserProvider } from "../components/auth/UserContext";
-import AdminDropdown from "./components/layout/AdminDropdown";
-import { CartProvider } from "./components/cart/CartContext";
-import CartTrigger from "./components/cart/CartTrigger";
-import CartFlyout from "./components/cart/CartFlyout";
-import CookieConsentBanner from "./components/layout/CookieConsentBanner";
+import { UserProvider } from ".../components/auth/UserContext";
+import AdminDropdown from "../components/layout/AdminDropdown";
+import { CartProvider } from "../components/cart/CartContext";
+import CartTrigger from "../components/cart/CartTrigger";
+import CartFlyout from "../components/cart/CartFlyout";
+import CookieConsentBanner from "../components/layout/CookieConsentBanner";
 
 function LayoutContent({ children, currentPageName }) {
   const location = useLocation();
